@@ -1,3 +1,54 @@
-h1{
-    color: red;
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C9D5BD;
+}
+
+.topnav{
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a{
+    color: #728264;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.topnav a:hover{
+    color: #9EAB92;
+}
+
+.topnav a.active{
+    color: #222C18;
+}
+
+.mainsec{
+    height: 615px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainsec .name{
+    width: 500px;
+    text-align: center;
+}
+
+.mainsec .name h1{
+    font-size: 85px;
+    margin: 0;
+}
+
+.mainsec .name h6{
+    font-size: 22px;
+    margin: 0;
+}
+
+.mainsec .photo .main_photo{
+    width: 500px;
+    height: 500px;
 }
